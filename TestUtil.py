@@ -11,4 +11,3 @@ class Test:
                 print(attr(**case))
             else:
                 print(attr(case))
-
