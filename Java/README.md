@@ -12,3 +12,5 @@
 11. [1256. 第n个数位](src/nth_digit_1256)
 12. [480. 二叉树的所有路径](src/binary_tree_paths_480)
 13. [433. 岛屿的个数](src/number_of_islands1_433)
+14. [1298. 最小高度树](src/minimum_height_trees_1298) TODO
+15. [104. 合并k个排序链表]()
