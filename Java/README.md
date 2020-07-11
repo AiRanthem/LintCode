@@ -14,3 +14,6 @@
 13. [433. 岛屿的个数](src/number_of_islands1_433)
 14. [1298. 最小高度树](src/minimum_height_trees_1298) TODO
 15. [104. 合并k个排序链表](src/merge_k_sorted_lists_104)
+16. [29. 交叉字符串](src/interleaving_string_29) pythoned
+17. [75. 寻找峰值](src/find_peak_element_75) pythoned
+18. [76. 最长上升子序列](src/longest_increasing_subsequence_76) pythoned
