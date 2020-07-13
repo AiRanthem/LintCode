@@ -46,8 +46,7 @@ public class SolutionTest {
      */
     @Test
     public void testLongestSameSubsequence() throws Exception {
-        //TODO: Test goes here...
-/* 
+/*
 try { 
    Method method = Solution.getClass().getMethod("longestSameSubsequence", int[].class, int[].class); 
    method.setAccessible(true); 

@@ -63,7 +63,6 @@ public class SolutionTest {
      */
     @Test
     public void testIsPalindrome() throws Exception {
-        //TODO: Test goes here...
 /* 
 try { 
    Method method = Solution.getClass().getMethod("isPalindrome", String.class); 
