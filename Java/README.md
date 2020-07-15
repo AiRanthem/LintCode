@@ -23,4 +23,6 @@
 22. [407. 加一](src/plus_one_407) pythoned
 23. [423. 有效的括号序列](src/valid_parantheses_423) pythoned
 24. [514. 栏杆染色](src/paint_fence_514) pythoned
-25. [553. 炸弹袭击] pythoned
+25. [553. 炸弹袭击](src/bomb_attack_553) pythoned
+26. [991. 灯泡切换](src/bulb_switcher_991)
+27. [3. 统计数字](src/stat_number_3)
