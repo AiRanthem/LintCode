@@ -3,8 +3,8 @@ package src.fast_pow_140;
 public class Solution {
     /**
      * @param aa: A 32bit integer
-     * @param b: A 32bit integer
-     * @param n: A 32bit integer
+     * @param b:  A 32bit integer
+     * @param n:  A 32bit integer
      * @return a^n % b
      */
     public int fastPower(int aa, int b, int n) {

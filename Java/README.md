@@ -26,3 +26,5 @@
 25. [553. 炸弹袭击](src/bomb_attack_553) pythoned
 26. [991. 灯泡切换](src/bulb_switcher_991)
 27. [3. 统计数字](src/stat_number_3)
+28. [154. 正则表达式匹配](src/regex_match_154) 记忆化搜索，DP
+29. [1223. 环绕字符串中的唯一子串](src/unique_substrings_in_wraparound_string_1223) UNIQUE DP
