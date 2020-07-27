@@ -12,7 +12,7 @@
 11. [1256. 第n个数位](src/nth_digit_1256) 
 12. [480. 二叉树的所有路径](src/binary_tree_paths_480) pythoned
 13. [433. 岛屿的个数](src/number_of_islands1_433) BFS
-14. [1298. 最小高度树](src/minimum_height_trees_1298) TODO
+14. [1298. 最小高度树](src/minimum_height_trees_1298) 拓扑排序思想，BFS
 15. [104. 合并k个排序链表](src/merge_k_sorted_lists_104) 归并排序
 16. [29. 交叉字符串](src/interleaving_string_29) pythoned
 17. [75. 寻找峰值](src/find_peak_element_75) 高中导数题的套路 pythoned

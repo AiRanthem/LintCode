@@ -18,16 +18,32 @@ public class TestUtil {
         return elements;
     }
 
-    public static <T> void assertArrayEquals(T[] input, T[] expected) {
+    public static int[][] buildIntXDArray(int x, int... elements) {
+        int n = elements.length / x;
+        int[][] ret = new int[n][x];
+        for (int i = 0; i < n; i ++) {
+            for (int j = 0; j < x; j++) {
+                ret[i][j] = elements[i * x + j];
+            }
+        }
+        return ret;
+    }
+
+    public static <T> void assertArrayEquals(T[] expected, T[] input) throws Exception {
+        if(expected.length != input.length) throw new Exception("input length error");
+        for (int i = 0; i < expected.length; i++) {
+            TestCase.assertEquals(expected[i], input[i]);
+        }
+    }
+
+    public static void assertIntArrayEquals(int[] expected, int[] input) {
         for (int i = 0; i < input.length; i++) {
             TestCase.assertEquals(expected[i], input[i]);
         }
     }
 
-    public static void assertIntArrayEquals(int[] input, int[] expected) {
-        for (int i = 0; i < input.length; i++) {
-            TestCase.assertEquals(expected[i], input[i]);
-        }
+    public static <T> void assertListEquals(List<T> expected, List<T> input) throws Exception {
+        TestUtil.assertArrayEquals(expected.toArray(), input.toArray());
     }
 
     public static char[][] buildCharGrid(String... rows) {
@@ -42,4 +58,5 @@ public class TestUtil {
         }
         return grid;
     }
+
 }
