@@ -6,7 +6,7 @@
 5. [1401. 抽搐数](src/twitch_words_1401) pythoned
 6. [1368. 相同数字](src/same_number_1368) pythoned
 7. [1314. 2的幂](src/is_pow_of_2_1314) pythoned
-8. [1294. 3的幂](src/is_oow_of_3_1294) pythoned
+8. [1294. 3的幂](src/is_pow_of_3_1294) pythoned
 9. [1282. 翻转字符串中的元音字母](src/reverse_vowels_of_a_string) pythoned
 10. [1266. 找不同](src/find_diff_1266) pythoned
 11. [1256. 第n个数位](src/nth_digit_1256) 
@@ -26,5 +26,10 @@
 25. [553. 炸弹袭击](src/bomb_attack_553) pythoned
 26. [991. 灯泡切换](src/bulb_switcher_991)
 27. [3. 统计数字](src/stat_number_3)
-28. [154. 正则表达式匹配](src/regex_match_154) 记忆化搜索，DP
-29. [1223. 环绕字符串中的唯一子串](src/unique_substrings_in_wraparound_string_1223) UNIQUE DP
+28. [154. 正则表达式匹配](src/regex_match_154) **重要** 记忆化搜索，DP
+29. [1223. 环绕字符串中的唯一子串](src/unique_substrings_in_wraparound_string_1223) **重要** UNIQUE DP
+30. [1065. 日程安排](src/my_calendar_1065)
+31. [1064. 日程安排2](src/my_calendar_ii_1064) **重要** 连续转离散
+32. [904. 加一链表](src/plus_one_linked_list_904)
+33. [886. 凸多边形](src/convex_polygon_886)
+34. [617. 子数组的最大平均值2](src/maximum_average_subarray_617) **重要** 二分查找，对解空间进行二分而不是对序列进行二分

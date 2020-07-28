@@ -46,6 +46,10 @@ public class TestUtil {
         TestUtil.assertArrayEquals(expected.toArray(), input.toArray());
     }
 
+    public static void assertBlurEquals(double threshold, double expected, double actual){
+        TestCase.assertTrue(Math.abs(expected-actual) <= threshold);
+    }
+
     public static char[][] buildCharGrid(String... rows) {
         if (rows.length == 0) {
             return new char[0][0];

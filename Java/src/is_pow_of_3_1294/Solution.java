@@ -1,4 +1,4 @@
-package src.is_oow_of_3_1294;
+package src.is_pow_of_3_1294;
 
 /**
  * 设 n = m ^ k ，k in Q 有
