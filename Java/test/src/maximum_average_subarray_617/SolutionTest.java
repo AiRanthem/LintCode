@@ -38,17 +38,6 @@ public void testMaxAverage() throws Exception {
 
     TestUtil.assertBlurEquals(0.001, 5,
             solution.maxAverage(TestUtil.buildIntArray(5), 1));
-} 
-
-/** 
-* 
-* Method: ansGreaterThan(double avg) 
-* 
-*/ 
-@Test
-public void testAnsGreaterThan() throws Exception { 
-//TODO: Test goes here... 
-} 
-
+}
 
 } 

@@ -33,3 +33,5 @@
 32. [904. 加一链表](src/plus_one_linked_list_904)
 33. [886. 凸多边形](src/convex_polygon_886)
 34. [617. 子数组的最大平均值2](src/maximum_average_subarray_617) **重要** 二分查找，对解空间进行二分而不是对序列进行二分
+35. [178. 图是否是树](src/graph_valid_tree_178)
+36. [在排序数组中找最接近的K个数](src/find_k_cloest_elements_460) 注意逻辑表达式

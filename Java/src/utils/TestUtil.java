@@ -1,6 +1,8 @@
 package src.utils;
 
+import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
+import org.junit.Assert;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,10 +20,22 @@ public class TestUtil {
         return elements;
     }
 
+    public static Integer[] buildIntegerArray(Integer... elements) {
+        return elements;
+    }
+
+    public static Integer[] castInt2IntegerArray(int[] array) {
+        Integer[] res = new Integer[array.length];
+        for (int i = 0; i < array.length; i++) {
+            res[i] = array[i];
+        }
+        return res;
+    }
+
     public static int[][] buildIntXDArray(int x, int... elements) {
         int n = elements.length / x;
         int[][] ret = new int[n][x];
-        for (int i = 0; i < n; i ++) {
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < x; j++) {
                 ret[i][j] = elements[i * x + j];
             }
@@ -29,25 +43,40 @@ public class TestUtil {
         return ret;
     }
 
-    public static <T> void assertArrayEquals(T[] expected, T[] input) throws Exception {
-        if(expected.length != input.length) throw new Exception("input length error");
+    public static <T> void assertArrayEquals(T[] expected, T[] actual) throws Exception {
+        if (expected.length != actual.length) throw new AssertionFailedError("actual length error");
         for (int i = 0; i < expected.length; i++) {
-            TestCase.assertEquals(expected[i], input[i]);
+            if(expected[i] != actual[i]){
+                System.out.printf("arrays first differed at element [%d]\n", i);
+                System.out.print("Expected :");
+                for (T t : expected) {
+                    System.out.printf(" %s", t);
+                }
+                System.out.println();
+
+                System.out.print("Actual   :");
+                for (T t : actual) {
+                    System.out.printf(" %s", t);
+                }
+                System.out.println();
+                throw new AssertionFailedError();
+            }
         }
     }
 
-    public static void assertIntArrayEquals(int[] expected, int[] input) {
-        for (int i = 0; i < input.length; i++) {
-            TestCase.assertEquals(expected[i], input[i]);
-        }
+    public static void assertIntArrayEquals(int[] expected, int[] input) throws Exception {
+        TestUtil.assertArrayEquals(
+                TestUtil.castInt2IntegerArray(expected),
+                TestUtil.castInt2IntegerArray(input)
+        );
     }
 
     public static <T> void assertListEquals(List<T> expected, List<T> input) throws Exception {
         TestUtil.assertArrayEquals(expected.toArray(), input.toArray());
     }
 
-    public static void assertBlurEquals(double threshold, double expected, double actual){
-        TestCase.assertTrue(Math.abs(expected-actual) <= threshold);
+    public static void assertBlurEquals(double threshold, double expected, double actual) {
+        TestCase.assertTrue(Math.abs(expected - actual) <= threshold);
     }
 
     public static char[][] buildCharGrid(String... rows) {
