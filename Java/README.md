@@ -34,4 +34,7 @@
 33. [886. 凸多边形](src/convex_polygon_886)
 34. [617. 子数组的最大平均值2](src/maximum_average_subarray_617) **重要** 二分查找，对解空间进行二分而不是对序列进行二分
 35. [178. 图是否是树](src/graph_valid_tree_178)
-36. [在排序数组中找最接近的K个数](src/find_k_cloest_elements_460) 注意逻辑表达式
+36. [460. 在排序数组中找最接近的K个数](src/find_k_cloest_elements_460) 注意逻辑表达式
+37. [12. 带最小值操作的栈](src/min_stack_12)
+38. [1293. 区间和的个数](src/count_of_range_sum_1293) **重要** 归并排序：序列的有序只需要一定程度上有序即可
+39. [874. 最大假期天数](src/maximum_vocation_days_874) **重要** DFS，记忆化剪枝
