@@ -16,7 +16,7 @@
 15. [104. 合并k个排序链表](src/merge_k_sorted_lists_104) 归并排序
 16. [29. 交叉字符串](src/interleaving_string_29) pythoned
 17. [75. 寻找峰值](src/find_peak_element_75) 高中导数题的套路 pythoned
-18. [76. 最长上升子序列](src/longest_increasing_subsequence_76) 子序列题目要考虑去重 pythoned
+18. [76. 最长上升子序列](src/longest_increasing_subsequence_76) 子序列题目要考虑去重 pythoned UPDATE: 通过Treeset可以快速完并且有二分优化
 19. [108. 分割回文串](src/palindrome_partitioning_ii_108) 回文串也要通过DP来判断 pythoned
 20. [140. 快速幂](src/fast_pow_140) 对于涉及int的乘法，需要用long来计算 pythoned
 21. [156. 合并区间](src/merge_intervals_156) pythoned
@@ -38,3 +38,5 @@
 37. [12. 带最小值操作的栈](src/min_stack_12)
 38. [1293. 区间和的个数](src/count_of_range_sum_1293) **重要** 归并排序：序列的有序只需要一定程度上有序即可
 39. [874. 最大假期天数](src/maximum_vocation_days_874) **重要** DFS，记忆化剪枝
+40. [602. 俄罗斯套娃信封](src/russian_doll_envelopes_602) **重要** 通过排序抽象为上升子序列
+41. [600. 包裹黑色像素点的最小矩形](src/smallest_rectangle_enclosing_black_pixels_600)
