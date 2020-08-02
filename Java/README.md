@@ -39,4 +39,8 @@
 38. [1293. 区间和的个数](src/count_of_range_sum_1293) **重要** 归并排序：序列的有序只需要一定程度上有序即可
 39. [874. 最大假期天数](src/maximum_vocation_days_874) **重要** DFS，记忆化剪枝
 40. [602. 俄罗斯套娃信封](src/russian_doll_envelopes_602) **重要** 通过排序抽象为上升子序列
-41. [600. 包裹黑色像素点的最小矩形](src/smallest_rectangle_enclosing_black_pixels_600)
+41. [600. 包裹黑色像素点的最小矩形](src/smallest_rectangle_enclosing_black_pixels_600) DFS
+42. [24. LFU缓存](src/lfu_cache_24) **重要** 复杂的映射关系
+43. [134. LRU缓存](src/lru_cache_134) 链表
+44. [86. 二叉查找树迭代器](src/binary_search_tree_iterator_86) **重要** 最右指向上一层
+45. [1227. 重复的子串模式](src/repeated_substring_pattern_1227) todo
