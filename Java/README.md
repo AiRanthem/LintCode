@@ -45,3 +45,6 @@
 44. [86. 二叉查找树迭代器](src/binary_search_tree_iterator_86) **重要** 最右指向上一层
 45. [1227. 重复的子串模式](src/repeated_substring_pattern_1227) todooc
 46. [65. 两个排序数组的中位数](src/median_of_two_sorted_arrays_65) **重要** 适当的进行二分，需要转换目标
+47. [14. 二分查找](src/first_position_of_target_14) **重要** 二分查找的模板
+48. [61. 搜索区间](src/search_for_a_range_61)
+49. [62. 搜索旋转排序数组](src/search_in_rotated_sorted_array_62) **重要** 对于序列，可以尝试画出函数曲线以制定二分策略
