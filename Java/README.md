@@ -48,3 +48,5 @@
 47. [14. 二分查找](src/first_position_of_target_14) **重要** 二分查找的模板
 48. [61. 搜索区间](src/search_for_a_range_61)
 49. [62. 搜索旋转排序数组](src/search_in_rotated_sorted_array_62) **重要** 对于序列，可以尝试画出函数曲线以制定二分策略
+50. [74. 第一个错误版本](src/first_bad_version_74)
+51. [159. 寻找旋转排序数组中的最小元素](src/find_minimun_in_rotated_sorted_array_159)
