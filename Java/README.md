@@ -50,3 +50,6 @@
 49. [62. 搜索旋转排序数组](src/search_in_rotated_sorted_array_62) **重要** 对于序列，可以尝试画出函数曲线以制定二分策略
 50. [74. 第一个错误版本](src/first_bad_version_74)
 51. [159. 寻找旋转排序数组中的最小元素](src/find_minimun_in_rotated_sorted_array_159)
+52. [53. 翻转字符串中的单词](src/reverse_words_in_a_string_53)
+53. [78. 最长公共前缀](src/longest_common_prefix_78)
+54. [107. 单词拆分](src/word_break_107)

@@ -4,9 +4,7 @@ import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
 import org.junit.Assert;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class TestUtil {
     @SafeVarargs
@@ -16,12 +14,24 @@ public class TestUtil {
         return ts;
     }
 
+    @SafeVarargs
+    public static <T> Set<T> buildSet(T... elements){
+        HashSet<T> ts = new HashSet<>(elements.length);
+        Collections.addAll(ts, elements);
+        return ts;
+    }
+
+    @SafeVarargs
+    public static <T> T[] buildArray(T... elements){
+        return elements;
+    }
+
     public static int[] buildIntArray(int... elements) {
         return elements;
     }
 
     public static Integer[] buildIntegerArray(Integer... elements) {
-        return elements;
+        return buildArray(elements);
     }
 
     public static Integer[] castInt2IntegerArray(int[] array) {
