@@ -16,12 +16,17 @@ public class TestUtil {
         return ts;
     }
 
+    @SafeVarargs
+    public static <T> T[] buildArray(T... elements){
+        return elements;
+    }
+
     public static int[] buildIntArray(int... elements) {
         return elements;
     }
 
     public static Integer[] buildIntegerArray(Integer... elements) {
-        return elements;
+        return buildArray(elements);
     }
 
     public static Integer[] castInt2IntegerArray(int[] array) {

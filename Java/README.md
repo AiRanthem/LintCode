@@ -50,3 +50,5 @@
 49. [62. 搜索旋转排序数组](src/search_in_rotated_sorted_array_62) **重要** 对于序列，可以尝试画出函数曲线以制定二分策略
 50. [74. 第一个错误版本](src/first_bad_version_74)
 51. [159. 寻找旋转排序数组中的最小元素](src/find_minimun_in_rotated_sorted_array_159)
+52. [119. 编辑距离](src/edit_distance_119) 长序列在前
+53. [171. 乱序字符串](src/anagrams_171) 数组的哈希方法
