@@ -53,3 +53,5 @@
 52. [53. 翻转字符串中的单词](src/reverse_words_in_a_string_53)
 53. [78. 最长公共前缀](src/longest_common_prefix_78)
 54. [107. 单词拆分](src/word_break_107)
+55. [119. 编辑距离](src/edit_distance_119) 长序列在前
+56. [171. 乱序字符串](src/anagrams_171) 数组的哈希方法
