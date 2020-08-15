@@ -34,15 +34,15 @@ public void after() throws Exception {
 */ 
 @Test
 public void testCountRangeSum() throws Exception {
-    TestCase.assertEquals(3,
-            solution.countRangeSum(
-                    TestUtil.buildIntArray(-2, 5, -1),
-                    -2, 2
-            ));
     TestCase.assertEquals(2,
             solution.countRangeSum(
                     TestUtil.buildIntArray(0,-3,-3,1,1,2),
                     3, 5
+            ));
+    TestCase.assertEquals(3,
+            solution.countRangeSum(
+                    TestUtil.buildIntArray(-2, 5, -1),
+                    -2, 2
             ));
 }
 
