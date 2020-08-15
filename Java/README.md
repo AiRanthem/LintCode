@@ -57,3 +57,8 @@
 56. [171. 乱序字符串](src/anagrams_171) 数组的哈希方法
 57. [1251. 拆分最大和子数组](src/split_array_largest_sum_1251) **重要** 解空间二分，序列求和reset的小技巧
 58. [244. 删除字符](src/delete_chat_244) 贪心
+59. [124. 最长连续序列](src/longest_consecutive_sequence_124) **重要** O(n)不只是一遍，Set的用法在于放入元素后remove元素
+60. [102. 带环链表](src/linked_list_cycle_102) **重要** 快慢指针
+61. [35. 翻转链表](src/reverse_linked_list_35)
+62. [36. 翻转链表2](src/reverse_linked_list_ii_36)
+63. [96. 链表划分](src/partition_list_96)
