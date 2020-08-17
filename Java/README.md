@@ -63,3 +63,9 @@
 62. [36. 翻转链表2](src/reverse_linked_list_ii_36)
 63. [96. 链表划分](src/partition_list_96)
 64. [103. 带环链表2](src/linked_list_cycle_ii_103)
+65. [41. 最大子数组](src/maximum_subarray_41)
+66. [46. 主元素](src/majority_element_46) **重要** 抵消法
+67. [56. 两数之和](src/two_sum_56) **重要** 巧用Hashmap
+68. [60. 搜索插入位置](src/search_insert_position_60)
+69. [64. 合并排序数组](src/merge_sorted_array_64)
+70. [82. 落单的数](src/single_number_82) **重要** 异或运算来判断是否相等，异或运算具有交换律和结合律
