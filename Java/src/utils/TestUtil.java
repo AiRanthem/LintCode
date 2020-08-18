@@ -102,4 +102,11 @@ public class TestUtil {
         return grid;
     }
 
+    public static void printStrings(List<String> strings){
+        for (String string : strings) {
+            System.out.println(string);
+        }
+        System.out.println();
+    }
+
 }
