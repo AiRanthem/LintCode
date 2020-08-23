@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.first_position_of_target_14.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

@@ -1,6 +1,6 @@
 package src.reverse_linked_list_35;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 public class Solution {
     /**

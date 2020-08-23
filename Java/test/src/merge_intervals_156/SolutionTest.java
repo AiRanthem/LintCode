@@ -5,9 +5,8 @@ import org.junit.Before;
 import org.junit.After;
 import junit.framework.TestCase;
 import src.merge_intervals_156.Solution;
-import src.utils.Interval;
+import utils.Interval;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -17,7 +16,7 @@ import java.util.List;
  *
  * @author <Authors name>
  * @version 1.0
- * @since <pre>7ÔÂ 13, 2020</pre>
+ * @since <pre>7ï¿½ï¿½ 13, 2020</pre>
  */
 public class SolutionTest {
 

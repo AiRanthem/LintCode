@@ -1,6 +1,6 @@
 package src.first_bad_version_74;
 
-import src.utils.SVNRepo;
+import utils.SVNRepo;
 
 /**
  * public class SVNRepo {

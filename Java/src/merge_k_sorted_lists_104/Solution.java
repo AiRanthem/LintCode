@@ -1,6 +1,6 @@
 package src.merge_k_sorted_lists_104;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 import java.util.List;
 

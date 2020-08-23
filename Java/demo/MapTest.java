@@ -1,6 +1,6 @@
 package demo;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 import java.util.HashMap;
 

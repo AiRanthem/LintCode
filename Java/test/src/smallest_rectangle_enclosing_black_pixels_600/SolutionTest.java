@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.smallest_rectangle_enclosing_black_pixels_600.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

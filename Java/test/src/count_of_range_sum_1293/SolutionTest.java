@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.count_of_range_sum_1293.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

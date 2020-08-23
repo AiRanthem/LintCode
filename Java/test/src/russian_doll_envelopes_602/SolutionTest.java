@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.russian_doll_envelopes_602.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 
@@ -35,10 +35,10 @@ public void after() throws Exception {
 @Test
 public void testMaxEnvelopes() throws Exception {
     TestCase.assertEquals(3,
-            solution.maxEnvelopes(TestUtil.buildIntXDArray(2, 5,4,6,4,6,7,2,3)));
+            solution.maxEnvelopes(TestUtil.buildInt2DArray(2, 5,4,6,4,6,7,2,3)));
 
     TestCase.assertEquals(4,
-            solution.maxEnvelopes(TestUtil.buildIntXDArray(2, 4,5,4,6,6,7,2,3,1,1)));
+            solution.maxEnvelopes(TestUtil.buildInt2DArray(2, 4,5,4,6,6,7,2,3,1,1)));
 } 
 
 

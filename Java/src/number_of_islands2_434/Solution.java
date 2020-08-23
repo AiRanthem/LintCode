@@ -1,6 +1,6 @@
 package src.number_of_islands2_434;
 
-import src.utils.Point;
+import utils.Point;
 
 import java.util.ArrayList;
 import java.util.Arrays;

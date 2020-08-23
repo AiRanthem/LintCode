@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.search_for_a_range_61.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

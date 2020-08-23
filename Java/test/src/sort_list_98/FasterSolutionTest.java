@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.sort_list_98.FasterSolution;
-import src.utils.RandomListNode;
+import utils.RandomListNode;
 
 /**
 * FasterSolution Tester. 

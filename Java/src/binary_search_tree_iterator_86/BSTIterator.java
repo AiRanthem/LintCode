@@ -1,6 +1,6 @@
 package src.binary_search_tree_iterator_86;
 
-import src.utils.TreeNode;
+import utils.TreeNode;
 
 /**
  * Example of iterate a tree:

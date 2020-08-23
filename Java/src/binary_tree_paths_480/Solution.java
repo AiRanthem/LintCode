@@ -1,6 +1,6 @@
 package src.binary_tree_paths_480;
 
-import src.utils.TreeNode;
+import utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

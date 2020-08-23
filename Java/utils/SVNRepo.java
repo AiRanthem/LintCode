@@ -1,4 +1,4 @@
-package src.utils;
+package utils;
 
 public interface SVNRepo {
     static boolean isBadVersion(int k) {

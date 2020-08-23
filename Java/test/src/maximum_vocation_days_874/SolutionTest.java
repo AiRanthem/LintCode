@@ -5,7 +5,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import src.maximum_vocation_days_874.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
  * Solution Tester.
@@ -33,32 +33,32 @@ public class SolutionTest {
     @Test
     public void testMaxVacationDays() throws Exception {
         TestCase.assertEquals(12, solution.maxVacationDays(
-                TestUtil.buildIntXDArray(3, 0, 1, 1, 1, 0, 1, 1, 1, 0),
-                TestUtil.buildIntXDArray(3, 1, 3, 1, 6, 0, 3, 3, 3, 3)
+                TestUtil.buildInt2DArray(3, 0, 1, 1, 1, 0, 1, 1, 1, 0),
+                TestUtil.buildInt2DArray(3, 1, 3, 1, 6, 0, 3, 3, 3, 3)
         ));
     }
 
     @Test
     public void test() throws Exception {
         TestCase.assertEquals(3, solution.maxVacationDays(
-                TestUtil.buildIntXDArray(3, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-                TestUtil.buildIntXDArray(3, 1, 1, 1, 7, 7, 7, 7, 7, 7)
+                TestUtil.buildInt2DArray(3, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+                TestUtil.buildInt2DArray(3, 1, 1, 1, 7, 7, 7, 7, 7, 7)
         ));
     }
 
     @Test
     public void test1() throws Exception {
         TestCase.assertEquals(21, solution.maxVacationDays(
-                TestUtil.buildIntXDArray(3, 0, 1, 1, 1, 0, 1, 1, 1, 0),
-                TestUtil.buildIntXDArray(3, 7, 0, 0, 0, 7, 0, 0, 0, 7)
+                TestUtil.buildInt2DArray(3, 0, 1, 1, 1, 0, 1, 1, 1, 0),
+                TestUtil.buildInt2DArray(3, 7, 0, 0, 0, 7, 0, 0, 0, 7)
         ));
     }
 
     @Test
     public void test2() throws Exception {
         TestCase.assertEquals(7, solution.maxVacationDays(
-                TestUtil.buildIntXDArray(3, 0, 1, 0, 0, 0, 0, 0, 0, 0),
-                TestUtil.buildIntXDArray(3, 0, 0, 7, 2, 0, 0, 7, 7, 7)
+                TestUtil.buildInt2DArray(3, 0, 1, 0, 0, 0, 0, 0, 0, 0),
+                TestUtil.buildInt2DArray(3, 0, 0, 7, 2, 0, 0, 7, 7, 7)
         ));
     }
 

@@ -5,7 +5,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import src.graph_valid_tree_178.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
  * Solution Tester.
@@ -33,25 +33,25 @@ public class SolutionTest {
     @Test
     public void testValidTree() throws Exception {
         TestCase.assertTrue(solution.validTree(5,
-                TestUtil.buildIntXDArray(2, 0, 1, 0, 2, 0, 3, 1, 4)));
+                TestUtil.buildInt2DArray(2, 0, 1, 0, 2, 0, 3, 1, 4)));
 
         TestCase.assertFalse(solution.validTree(5,
-                TestUtil.buildIntXDArray(2, 0, 1, 1, 2, 2, 3, 1, 3, 1, 4)));
+                TestUtil.buildInt2DArray(2, 0, 1, 1, 2, 2, 3, 1, 3, 1, 4)));
 
         TestCase.assertFalse(solution.validTree(4,
-                TestUtil.buildIntXDArray(2, 0,1,2,3)));
+                TestUtil.buildInt2DArray(2, 0,1,2,3)));
 
         TestCase.assertFalse(solution.validTree(6,
-                TestUtil.buildIntXDArray(2, 0, 1, 0, 2, 3, 4, 3, 5)));
+                TestUtil.buildInt2DArray(2, 0, 1, 0, 2, 3, 4, 3, 5)));
 
         TestCase.assertTrue(solution.validTree(1,
-                TestUtil.buildIntXDArray(2)));
+                TestUtil.buildInt2DArray(2)));
 
         TestCase.assertFalse(solution.validTree(2,
-                TestUtil.buildIntXDArray(2 )));
+                TestUtil.buildInt2DArray(2 )));
 
         TestCase.assertFalse(solution.validTree(10,
-                TestUtil.buildIntXDArray(2,0,1,5,6,6,7,9,0,3,7,4,8,1,8,5,2,5,3)));
+                TestUtil.buildInt2DArray(2,0,1,5,6,6,7,9,0,3,7,4,8,1,8,5,2,5,3)));
     }
 
 

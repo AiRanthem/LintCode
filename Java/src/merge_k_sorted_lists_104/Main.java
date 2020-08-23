@@ -1,10 +1,9 @@
 package src.merge_k_sorted_lists_104;
 
-import src.utils.ListBuilder;
-import src.utils.ListNode;
+import utils.ListBuilder;
+import utils.ListNode;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After;
-import src.utils.TestUtil;
+import utils.TestUtil;
 import src.word_break_107.Solution;
 /** 
 * Solution Tester. 

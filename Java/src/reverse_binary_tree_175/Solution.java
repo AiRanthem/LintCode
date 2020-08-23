@@ -1,6 +1,6 @@
 package src.reverse_binary_tree_175;
 
-import src.utils.TreeNode;
+import utils.TreeNode;
 
 import java.util.Stack;
 

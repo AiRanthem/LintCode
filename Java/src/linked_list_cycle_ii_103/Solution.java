@@ -1,6 +1,6 @@
 package src.linked_list_cycle_ii_103;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 public class Solution {
     /**

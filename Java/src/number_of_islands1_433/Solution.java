@@ -1,7 +1,5 @@
 package src.number_of_islands1_433;
 
-import src.utils.GridFactory;
-
 import java.util.LinkedList;
 import java.util.Queue;
 

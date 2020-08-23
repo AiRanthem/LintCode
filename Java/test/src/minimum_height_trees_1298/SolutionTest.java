@@ -1,11 +1,10 @@
 package test.src.minimum_height_trees_1298; 
 
-import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.minimum_height_trees_1298.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 
@@ -35,9 +34,9 @@ public void after() throws Exception {
 @Test
 public void testFindMinHeightTrees() throws Exception {
     TestUtil.assertListEquals(TestUtil.buildList(1),
-            solution.findMinHeightTrees(4, TestUtil.buildIntXDArray(2, 1,0,1,2,1,3)));
+            solution.findMinHeightTrees(4, TestUtil.buildInt2DArray(2, 1,0,1,2,1,3)));
     TestUtil.assertListEquals(TestUtil.buildList(3,4),
-            solution.findMinHeightTrees(6, TestUtil.buildIntXDArray(2, 0, 3, 1, 3, 2, 3, 4, 3, 5, 4)));
+            solution.findMinHeightTrees(6, TestUtil.buildInt2DArray(2, 0, 3, 1, 3, 2, 3, 4, 3, 5, 4)));
 } 
 
 
