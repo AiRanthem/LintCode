@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.find_k_cloest_elements_460.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

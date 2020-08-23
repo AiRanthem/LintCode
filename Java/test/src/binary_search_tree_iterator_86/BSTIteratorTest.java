@@ -5,8 +5,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import src.binary_search_tree_iterator_86.BSTIterator;
-import src.utils.TreeNode;
-import src.utils.TreeUtil;
+import utils.TreeNode;
+import utils.TreeUtil;
 
 /**
  * BSTIterator Tester.

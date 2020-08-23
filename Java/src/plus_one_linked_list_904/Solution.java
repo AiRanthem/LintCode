@@ -1,6 +1,6 @@
 package src.plus_one_linked_list_904;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 import java.util.Stack;
 

@@ -1,6 +1,6 @@
 package src.insert_interval_30;
 
-import src.utils.Interval;
+import utils.Interval;
 
 import java.util.ArrayList;
 import java.util.List;

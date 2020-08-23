@@ -1,6 +1,4 @@
-package src.utils;
-
-import java.util.List;
+package utils;
 
 public class ListBuilder {
     public ListNode build(int[] vals, boolean headless) {

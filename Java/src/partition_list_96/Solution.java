@@ -1,6 +1,6 @@
 package src.partition_list_96;
 
-import src.utils.ListNode;
+import utils.ListNode;
 
 public class Solution {
     /**

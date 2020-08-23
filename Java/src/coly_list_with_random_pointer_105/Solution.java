@@ -1,6 +1,6 @@
 package src.coly_list_with_random_pointer_105;
 
-import src.utils.RandomListNode;
+import utils.RandomListNode;
 
 public class Solution {
     /**

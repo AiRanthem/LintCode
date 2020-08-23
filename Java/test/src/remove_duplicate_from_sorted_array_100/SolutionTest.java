@@ -1,11 +1,10 @@
 package test.src.remove_duplicate_from_sorted_array_100; 
 
-import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.remove_duplicate_from_sorted_array_100.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

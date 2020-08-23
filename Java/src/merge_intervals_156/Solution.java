@@ -1,6 +1,6 @@
 package src.merge_intervals_156;
 
-import src.utils.Interval;
+import utils.Interval;
 
 import java.util.*;
 import java.util.List;

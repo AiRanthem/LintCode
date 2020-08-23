@@ -79,3 +79,4 @@
 1. [141. 对x开根](src/sqrt_x_141)
 1. [175. 翻转二叉树](src/reverse_binary_tree_175)
 1. [384. 最长无重复字符子串](src/longest_substring_without_repeating_characters_384)
+1. [1291. 运动会](src/sports_meeting_1291) **重要** 贪心

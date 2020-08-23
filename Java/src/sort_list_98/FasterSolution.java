@@ -1,6 +1,6 @@
 package src.sort_list_98;
 
-import src.utils.RandomListNode;
+import utils.RandomListNode;
 
 import java.util.HashMap;
 

@@ -5,7 +5,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import src.median_of_two_sorted_arrays_65.Solution2;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
  * Solution2 Tester.

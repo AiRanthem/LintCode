@@ -1,6 +1,6 @@
 package src.serialize_binary_tree_7;
 
-import src.utils.TreeNode;
+import utils.TreeNode;
 
 import java.util.*;
 

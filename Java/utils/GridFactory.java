@@ -1,4 +1,4 @@
-package src.utils;
+package utils;
 
 public class GridFactory {
     public static boolean[][] makeBooleanGrid(int[][] input) {

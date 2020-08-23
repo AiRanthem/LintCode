@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.kth_largest_element_5.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

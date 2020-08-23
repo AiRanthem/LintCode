@@ -1,4 +1,4 @@
-package src.utils;
+package utils;
 
 public class Interval {
     public int start, end;

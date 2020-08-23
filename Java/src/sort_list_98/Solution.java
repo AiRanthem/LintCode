@@ -1,8 +1,6 @@
 package src.sort_list_98;
 
-import src.utils.ListNode;
-
-import java.util.List;
+import utils.ListNode;
 
 /**
  * Definition for ListNode

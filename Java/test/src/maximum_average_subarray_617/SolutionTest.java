@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 import src.maximum_average_subarray_617.Solution;
-import src.utils.TestUtil;
+import utils.TestUtil;
 
 /**
 * Solution Tester. 

@@ -1,11 +1,17 @@
-package src.utils;
+package utils;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
-import org.junit.Assert;
 
 import java.util.*;
 
+/**
+ * 测试中用到的各种工具方法。包括：
+ * build开头的方法：数据结构的生成，比如生成数组、字符串转数组、生成List等
+ * cast开头的方法：类型转换
+ * assert开头的方法：通过封装一些Junit的assert方法实现了对原生的assert的增强
+ * print开头的方法：打印一些必要数据
+ */
 public class TestUtil {
     @SafeVarargs
     public static <T> List<T> buildList(T... elements) {
@@ -34,15 +40,13 @@ public class TestUtil {
         return buildArray(elements);
     }
 
-    public static Integer[] castInt2IntegerArray(int[] array) {
-        Integer[] res = new Integer[array.length];
-        for (int i = 0; i < array.length; i++) {
-            res[i] = array[i];
-        }
-        return res;
-    }
-
-    public static int[][] buildIntXDArray(int x, int... elements) {
+    /**
+     * 生成一个size为[,x]的二维数组
+     * @param x 每一个一维数组元素多大
+     * @param elements 所有元素
+     * @return 二维数组
+     */
+    public static int[][] buildInt2DArray(int x, int... elements) {
         int n = elements.length / x;
         int[][] ret = new int[n][x];
         for (int i = 0; i < n; i++) {
@@ -51,6 +55,35 @@ public class TestUtil {
             }
         }
         return ret;
+    }
+
+    /**
+     * 老版本命名失误，弃用，请使用buildInt2DArray.
+     */
+    @Deprecated
+    public static int[][] buildIntXDArray(int x, int... elements){
+        return buildInt2DArray(x, elements);
+    }
+
+    public static char[][] buildCharGrid(String... rows) {
+        if (rows.length == 0) {
+            return new char[0][0];
+        }
+        char[][] grid = new char[rows.length][rows[0].length()];
+        for (int i = 0; i < rows.length; i++) {
+            for (int j = 0; j < rows[i].length(); j++) {
+                grid[i][j] = rows[i].charAt(j);
+            }
+        }
+        return grid;
+    }
+
+    public static Integer[] castInt2IntegerArray(int[] array) {
+        Integer[] res = new Integer[array.length];
+        for (int i = 0; i < array.length; i++) {
+            res[i] = array[i];
+        }
+        return res;
     }
 
     public static <T> void assertArrayEquals(T[] expected, T[] actual) throws Exception {
@@ -87,19 +120,6 @@ public class TestUtil {
 
     public static void assertBlurEquals(double threshold, double expected, double actual) {
         TestCase.assertTrue(Math.abs(expected - actual) <= threshold);
-    }
-
-    public static char[][] buildCharGrid(String... rows) {
-        if (rows.length == 0) {
-            return new char[0][0];
-        }
-        char[][] grid = new char[rows.length][rows[0].length()];
-        for (int i = 0; i < rows.length; i++) {
-            for (int j = 0; j < rows[i].length(); j++) {
-                grid[i][j] = rows[i].charAt(j);
-            }
-        }
-        return grid;
     }
 
     public static void printStrings(List<String> strings){

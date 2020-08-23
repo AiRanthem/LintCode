@@ -5,11 +5,7 @@ import org.junit.Before;
 import org.junit.After;
 import junit.framework.TestCase;
 import src.bomb_attack_553.Solution;
-import src.utils.TestUtil;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import utils.TestUtil;
 
 /**
  * Solution Tester.
