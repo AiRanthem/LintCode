@@ -1,4 +1,9 @@
 # Java版本刷题目录
+工具类都在[utils](utils)目录
+
+题目都在[src](src)目录
+
+其余目录是企业笔试、给同学讲解等用到的目录，意义不大
 1. [427. 生成括号](src/generate_parentheses_427) pythoned
 1. [428. x的n次幂](src/pow_x_n_428) pythoned
 1. [7. 二叉树的序列化和反序列化](src/serialize_binary_tree_7) pythoned
@@ -80,3 +85,4 @@
 1. [175. 翻转二叉树](src/reverse_binary_tree_175)
 1. [384. 最长无重复字符子串](src/longest_substring_without_repeating_characters_384)
 1. [1291. 运动会](src/sports_meeting_1291) **重要** 贪心
+1. [408. 二进制求和]
