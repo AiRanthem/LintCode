@@ -1,2 +1,7 @@
-
+project(LintCode)
+add_definitions(-std=c++11)
+cmake_minimum_required(VERSION 3.17)
 add_executable(hello-world hello-world.cpp)
+add_executable(1400fermat-point-of-graphs 1400fermat-point-of-graphs.cpp)
+add_executable(P1352 utils.cpp P1352.cpp)
+add_executable(1400 example/1400.cpp)
