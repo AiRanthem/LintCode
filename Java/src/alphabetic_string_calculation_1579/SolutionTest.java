@@ -10,5 +10,9 @@ public class SolutionTest {
     public void kstart() {
         Solution solution = new Solution();
         int aaabbb = solution.Kstart("aaabbb");
+        assertEquals(1, aaabbb);
+
+        int abcd = solution.Kstart("abcd");
+        assertEquals(3, abcd);
     }
 }

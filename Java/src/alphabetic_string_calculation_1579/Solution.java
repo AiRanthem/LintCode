@@ -18,15 +18,21 @@ public class Solution {
     public int Kstart(String aString) {
         HashMap<Character, Integer> alphabeta2times = new HashMap<>(aString.length());
         for (char c : aString.toCharArray()) {
-            alphabeta2times.put(c, alphabeta2times.getOrDefault(c, 0));
+            alphabeta2times.put(c, alphabeta2times.getOrDefault(c, 0) + 1);
+        }
+
+        int[] occurances = new int[aString.length() + 1];
+        for (Integer time : alphabeta2times.values()) {
+            occurances[time]++;
         }
 
         int res = 0;
+        for (int i = aString.length(); i > 0 ; i--) {
+            if (occurances[i] > 1) {
+                res += occurances[i] - 1;
+                occurances[i-1] += occurances[i] - 1;
+            }
+        }
         return res;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(1);
-        System.out.println(2);
     }
 }
