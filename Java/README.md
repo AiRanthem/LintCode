@@ -91,3 +91,4 @@
 85. [872. 终止进程](src/terminate_process_872)
 86. [1237. 回旋镖的数量](src/number_of_boomerangs_1237)
 87. [39. 恢复旋转排序数组](src/recover_rotated_sorted_array_39)
+88. [1178. 学生出勤记录 I]
