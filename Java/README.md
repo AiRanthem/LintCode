@@ -91,4 +91,10 @@
 85. [872. 终止进程](src/terminate_process_872)
 86. [1237. 回旋镖的数量](src/number_of_boomerangs_1237)
 87. [39. 恢复旋转排序数组](src/recover_rotated_sorted_array_39)
-88. [1178. 学生出勤记录 I]
+88. [1178. 学生出勤记录 I](src/check_record_1178)
+89. [97. 二叉树最大深度](src/max_depth_97)
+90. [1649. 超级棒棒糖](src/lollipop_1649)
+91. [496. 玩具工厂](src/toy_factory_496)
+92. [1116. 函数执行时间](src/exclusive_time_1116)
+93. [1197. 寻找树中最左下节点的值](src/buttom_left_value_1197)
+94. [1883. 前K个高频关键词](src/top_k_keywords_1883)
