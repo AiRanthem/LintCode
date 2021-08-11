@@ -99,4 +99,8 @@
 93. [1197. 寻找树中最左下节点的值](src/buttom_left_value_1197)
 94. [1883. 前K个高频关键词](src/top_k_keywords_1883) **重要** KMP算法
 95. [1914. 聪明的销售](src/min_item_1914)
-96. [1915. 举重](src/weight_capacity_1915) **重要** 背包问题
+96. [1915. 举重](src/weight_capacity_1915) **重要** 背包问题的优化实现方式
+97. [1899. 取物资II](src/fetch_supplies_ii_1899) **重要** 三分法，适用于求区间内唯一极值
+98. [1343. 合并字符串](src/sum_of_two_strings_1343)
+99. [1904. 放置小球](src/put_balls_1904) **重要** 背包问题的总结，二分搜索+背包DP
+100. [109. 数字三角形](src/trangle_minimum_total_109) **重要** 记忆搜索
