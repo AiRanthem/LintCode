@@ -97,4 +97,6 @@
 91. [496. 玩具工厂](src/toy_factory_496)
 92. [1116. 函数执行时间](src/exclusive_time_1116)
 93. [1197. 寻找树中最左下节点的值](src/buttom_left_value_1197)
-94. [1883. 前K个高频关键词](src/top_k_keywords_1883)
+94. [1883. 前K个高频关键词](src/top_k_keywords_1883) **重要** KMP算法
+95. [1914. 聪明的销售](src/min_item_1914)
+96. [1915. 举重](src/weight_capacity_1915) **重要** 背包问题
