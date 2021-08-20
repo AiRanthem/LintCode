@@ -1,9 +1,11 @@
 # Java版本刷题目录
+
 工具类都在[utils](utils)目录
 
 题目都在[src](src)目录
 
 其余目录是企业笔试、给同学讲解等用到的目录，意义不大
+
 1. [427. 生成括号](src/generate_parentheses_427) pythoned
 2. [428. x的n次幂](src/pow_x_n_428) pythoned
 3. [7. 二叉树的序列化和反序列化](src/serialize_binary_tree_7) pythoned
@@ -14,7 +16,7 @@
 8. [1294. 3的幂](src/is_pow_of_3_1294) pythoned
 9. [1282. 翻转字符串中的元音字母](src/reverse_vowels_of_a_string) pythoned
 10. [1266. 找不同](src/find_diff_1266) pythoned
-11. [1256. 第n个数位](src/nth_digit_1256) 
+11. [1256. 第n个数位](src/nth_digit_1256)
 12. [480. 二叉树的所有路径](src/binary_tree_paths_480) pythoned
 13. [433. 岛屿的个数](src/number_of_islands1_433) BFS
 14. [1298. 最小高度树](src/minimum_height_trees_1298) 拓扑排序思想，BFS
@@ -34,7 +36,7 @@
 28. [154. 正则表达式匹配](src/regex_match_154) **重要** 记忆化搜索，DP
 29. [1223. 环绕字符串中的唯一子串](src/unique_substrings_in_wraparound_string_1223) **重要** UNIQUE DP
 30. [1065. 日程安排](src/my_calendar_1065)
-31. [1064. 日程安排2](src/my_calendar_ii_1064) **重要** 连续转离散
+31. [1064. 日程安排2](src/my_calendar_ii_1064) **重要** 扫描线 pythoned
 32. [904. 加一链表](src/plus_one_linked_list_904)
 33. [886. 凸多边形](src/convex_polygon_886)
 34. [617. 子数组的最大平均值2](src/maximum_average_subarray_617) **重要** 二分查找，对解空间进行二分而不是对序列进行二分
@@ -68,7 +70,7 @@
 62. [36. 翻转链表2](src/reverse_linked_list_ii_36)
 63. [96. 链表划分](src/partition_list_96)
 64. [98. 链表排序](src/sort_list_98)
-65. [105. 拷贝带随机指针的链表](src/coly_list_with_random_pointer_105) 
+65. [105. 拷贝带随机指针的链表](src/coly_list_with_random_pointer_105)
 66. [103. 带环链表2](src/linked_list_cycle_ii_103)
 67. [92. 背包问题](src/backpack_92)
 68. [480. 分割字符串](src/split_string_680)
@@ -104,3 +106,6 @@
 98. [1343. 合并字符串](src/sum_of_two_strings_1343)
 99. [1904. 放置小球](src/put_balls_1904) **重要** 背包问题的总结，二分搜索+背包DP
 100. [109. 数字三角形](src/trangle_minimum_total_109) **重要** 记忆搜索
+101. [1256. 第n个数位](src/find_nth_digit_1256)
+102. [22289. 字符的ASCII码](src/ascii_code_of_character_2289)
+103. [1816. 使结果不超过阈值的最小除数](src/smallest_divisor_1816)
