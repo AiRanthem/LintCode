@@ -11,7 +11,7 @@ public class MyCalendarTwo {
      * 遍历过程中如果活动数>=3，则有 三重预定，返回false，回滚事件，否则返回true。
      * <p>
      * 实现：
-     * 这个map的key是时间点，value是改时间点正在进行的活动数
+     * 这个map的key是时间点，value是改时间点发生的活动数变化
      * TreeMap按照key排序，则意味着遍历这个集合可以按照时间（key）顺序遍历
      * 活动数发生两次改变之间不会变化，所以只要遍历start和end的时间节点即可
      */
