@@ -1,3 +1,0 @@
-/home/airan/code/LintCode/Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/airan/code/LintCode/Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/airan/code/LintCode/Cpp/cmake-build-debug/CMakeFiles/hello-world.dir
