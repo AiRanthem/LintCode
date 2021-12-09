@@ -1,9 +1,5 @@
 package src.add_b_label_1127;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
 public class Solution {
     /**
      * @param s: a string
@@ -11,41 +7,30 @@ public class Solution {
      * @return: return a string
      */
     public String addBoldTag(String s, String[] dict) {
-        // write your code here
-        return null;
-    }
-
-    public static class Trie {
-        Character value;
-        Map<Character, Trie> children;
-
-        public boolean isLeaf() {
-            return children == null;
-        }
-
-        public void addString(char[] chars) {
-            if (children == null) {
-                children = new HashMap<>();
+        boolean[] bold = new boolean[s.length()];
+        for (int i = 0, end = 0; i < s.length(); i++) {
+            for (String word : dict) {
+                if (s.startsWith(word, i)) {
+                    end = Math.max(end, i + word.length());
+                }
             }
-            // todo
+            bold[i] = end > i;
         }
-    }
-
-    public int[] cacuKmpNext(String p) {
-        int[] next = new int[p.length()];
-        next[0] = 0;
-        int x = 1, y = 0; // x is fast, y is slow
-        while (x < next.length) {
-            if (p.charAt(x) == p.charAt(y)) {
-                y++; // 根据所谓的“下一个匹配点”属性和最大长度定义，都需要先+1
-                next[x] = y;
-                x++;
-            } else if (y != 0) { // 可以回溯进行匹配
-                y = next[y - 1];
-            } else { // y = 0 表示 p[0] != p[x] 且经过几次迭代没有任何前后缀满足条件，保留0.
-                x++;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < bold.length; i++) {
+            if (!bold[i]) {
+                sb.append(s.charAt(i));
+                continue;
             }
+            int j = i;
+            while (j < s.length() && bold[j]){
+                j++;
+            }
+            sb.append("<b>");
+            sb.append(s, i, j);
+            sb.append("</b>");
+            i = j - 1;
         }
-        return next;
+        return sb.toString();
     }
 }
