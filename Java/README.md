@@ -111,3 +111,4 @@
 103. [1816. 使结果不超过阈值的最小除数](src/smallest_divisor_1816)
 104. [540 · 左旋右旋迭代器](src/rotate_iter_540)
 105. [1127. 在字符串中添加粗体标签](src/add_b_label_1127)
+106. [1728 · 卡牌分组](src/has_group_size_x_1728)
